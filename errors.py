@@ -18,7 +18,7 @@ except ZeroDivisionError:
 else:
 	print("10 / 2: No exceptions raised") # Note that else runs when no exceptions are raised
 finally:
-  print("10 / 2: This code always runs\n")
+	print("10 / 2: This code always runs\n")
 
 # This is how we can catch any error
 try:
@@ -32,7 +32,7 @@ except BaseException as err:
 else:
 	print("SystemError1: No exceptions raised")
 finally:
-  print("SystemError1: This code always runs\n")
+	print("SystemError1: This code always runs\n")
 
 # System error is not being handled by our code
 try:
@@ -42,4 +42,4 @@ except ZeroDivisionError:
 else:
 	print("SystemError2: No exceptions raised")
 finally:
-  print("SystemError2: This code always runs\n")
+	print("SystemError2: This code always runs\n")
